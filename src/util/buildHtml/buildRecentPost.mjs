@@ -67,6 +67,11 @@ function buildRecentPost(data) {
         
     }
 
+    btnShare.addEventListener('click', () => {
+        navigator.clipboard.writeText(window.location.href)
+        alert('link copied')
+    })
+
     btnDelete.addEventListener('click', () => {
         deleteElement() 
     })

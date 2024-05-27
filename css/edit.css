@@ -28,6 +28,7 @@
     font-weight: 600;
     padding: .5rem 2rem;
     margin-left: 1rem;
+    cursor: pointer;
 }
 
 .editor-nav-btn:focus {
@@ -90,6 +91,7 @@ textarea.editor-input {
     background-color: var(--main-button);
     border: none;
     border-radius: 3px;
+    cursor: pointer;
 }
 .add-editor-inputs-btn img {
     width: 2rem;

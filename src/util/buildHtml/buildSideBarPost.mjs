@@ -19,7 +19,7 @@ function buildSideBarPost(data) {
     image.alt = data.media.alt
     paragraph.innerText = removeHtmlTags(data.body)
     readMoreBtn.innerText = 'Read More ->'
-    readMoreBtn.href = `${window.location.origin}/HotView/post/index.html?id=${data.id}`
+    readMoreBtn.href = `${window.location.origin}/FED1-PE1-Borisrunfast/post/index.html?id=${data.id}`
 
     body.append(title, image, paragraph, readMoreBtn)
     return body

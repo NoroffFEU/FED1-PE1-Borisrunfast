@@ -84,6 +84,7 @@ p.feed-carousel-subdata-date {
     margin-left: auto;
     margin-bottom: 2rem;
     display: block;
+    cursor: pointer;
 }
 
 .sub-carousel-img-div {
