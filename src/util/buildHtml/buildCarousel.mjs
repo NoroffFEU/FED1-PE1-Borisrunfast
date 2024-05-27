@@ -35,7 +35,7 @@ function buildCarousel(data) {
         author.innerText = 'Author: ' + carouselData[0].author.name
         date.innerText = new Date(carouselData[0].created).toUTCString()
         redirectBtn.addEventListener('click', () => {
-            window.location.href = `${window.location.origin}/HotView/post/index.html?id=${carouselData[0].id}`
+            window.location.href = `${window.location.origin}/FED1-PE1-Borisrunfast/post/index.html?id=${carouselData[0].id}`
         })
     }
 
