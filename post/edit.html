@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../css/edit.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jockey+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>HotView Labs</title>
+
+</head>
+<body>
+    <script src="../src/util/isAdmin.mjs" type="module"></script>
+    <nav class="navigation">
+        <h1 class="logo-h1">HotView Labs</h1>
+        <ul class="navigation-desktop">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html">Posts</a></li>
+            <li><a href="../about/index.html">About</a></li>
+            <div class="dropdown">
+                <img src="../images/codicon_account.svg">
+                <div class="content">
+                    <a href="../account/index.html">Account</a>
+                    <a href="../account/login.html">Login</a>
+                    <a href="../account/register.html">Register</a>
+                </div>
+            </div>
+        </ul>
+
+        <div class="navigation-mobile">
+            <button id="open-nav" class="navigation-mobile-toggle-btn"><img src="../images/symbol_menu.svg"></button>
+            <div class="navigation-mobile-div">
+                <button id="close-nav" class="navigation-mobile-toggle-btn"><img src="../images/close.svg"></button>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html">Posts</a></li>
+                    <li><a href="../about/index.html">About</a></li>
+                    <li><a href="../account/index.html">Account</a></li>
+                    <li><a href="../account/login.html">Login</a></li>
+                    <li><a href="../account/register.html">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="editor-intro">
+        <h1 class="editor-h1">HotView Editor</h1>
+    </div>
+    
+
+    <div class="obj-decoration-2-center">
+        <div class="editor-nav-center">
+            <div class="editor-nav">
+                <button id="editor-recent-posts-btn" class="editor-nav-btn">Recent Posts</button>
+                <button id="editor-posts-btn" class="editor-nav-btn">Post</button>
+            </div>
+        </div>
+        
+        <div class="obj-decoration-2">
+
+            <div class="editor-body">
+
+                <div id="editor-recent-posts" class="editor-recent-posts">
+                    
+                </div>
+
+                
+                  
+                <form id="editor-form">
+                    <label class="editor-label">Title:</label>
+                    <input id="form-title" name="title" class="editor-input">
+                    <label class="editor-label">Body:</label>
+                    <textarea id="form-body" name="body" class="editor-input"></textarea>
+                    <label class="editor-label">Tags:</label>
+                    <textarea id="form-tags" name="tags" class="editor-input"></textarea>
+                    <label class="editor-label">Image Url:</label>
+                    <input id="form-url" name="url" type="url" class="editor-input" placeholder="Image URL">
+                    <label class="editor-label">Image Alt:</label>
+                    <input id="form-alt" name="alt" type="text" class="editor-input" placeholder="Cat sitting on a window">
+                    <hr>
+
+                    <div id="editor-sub-inputs"> 
+                    </div>
+                    <button id="add-editor-inputs-btn" class="add-editor-inputs-btn"><img  id="add-editor-inputs-btn" src="../images/ic_plus.svg" ></button>
+                    
+                    
+                    <div class="editor-buttons">
+                        <button id="editor-clear-btn" class="editor-clear-btn">Clear</button>
+                        <button id="editor-update-btn" class="editor-update-btn" disabled>Update</button>
+                        <button id="editor-post-btn" type="submit" class="editor-post-btn">Post</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-body">
+        <div class="footer-description">
+            <h3>HotView Labs</h3>
+            <p>Provide the most accurate and up to date insights to tech leaders across the world.</p>
+        </div>
+        <div class="footer-links">
+            <div class="links-pages">
+                <a href="../index.html">Home</a>
+                <a href="../index.html">Posts</a>
+                <a href="../about/index.html">About</a>
+                <a href="../account/index.html">Account</a>
+                <a href="../account/login.html">Login</a>
+                <a href="../account/register.html">Register</a>
+            </div>
+            <div class="links-socials">
+                <p>Follow us:</p>
+                <a href="#"><img src="../images/ic_twitter.svg"></a>
+                <a href="#"><img src="../images/ic_youtube.svg"></a>
+                <a href="#"><img src="../images/ic_facebook.svg"></a>
+                <a href="#"><img src="../images/ic_instagram.svg"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="../index.mjs" type="module"></script>
+    <script src="../src/edit.mjs" type="module"></script>
+</body>
+</html>

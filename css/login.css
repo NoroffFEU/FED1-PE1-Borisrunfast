@@ -1,0 +1,95 @@
+.obj-decoration-2-center {
+    margin: 6rem 0 12rem .5rem;
+}
+
+.obj-decoration-2 {
+    width: 50%;
+}
+
+.obj-decoration-2::before {
+    height: calc(100% + 6rem);
+}
+
+.login-intro {
+    width: calc(80% - 1rem);
+    margin: 2rem auto .5rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-h2 {
+    font-size: 2.5rem;
+    color: var(--light-text);
+}
+
+.login-body {
+    padding: 4rem;
+}
+
+.login-label {
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.login-input {
+    display: block;
+    width: 100%;
+    background-color: var(--main-color);
+    color: var(--light-text);
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    padding: .25rem;
+    margin-bottom: .5rem;
+}
+
+.login-checkbox {
+    display: block;
+
+}
+
+.login-checkbox input {
+    margin-right: .5rem;
+    margin-bottom: 1rem;
+}
+
+.login-submit {
+    background-color: var(--main-button);
+    color: var(--light-text);
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    padding: .5rem 1.5rem;
+    width: 100%;
+}
+
+.login-redirect {
+    color: var(--secondary-color);
+    text-decoration: none;
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+
+.bold {
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1000px) {
+    .obj-decoration-2 {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .login-body {
+        padding: 2rem;
+    }
+}

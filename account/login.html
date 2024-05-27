@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jockey+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>HotView Labs</title>
+</head>
+<body>
+    <nav class="navigation">
+        <h1 class="logo-h1">HotView Labs</h1>
+        <ul class="navigation-desktop">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html">Posts</a></li>
+            <li><a href="../about/index.html">About</a></li>
+            <div class="dropdown">
+                <img src="../images/codicon_account.svg">
+                <div class="content">
+                    <a href="./index.html">Account</a>
+                    <a href="./login.html">Login</a>
+                    <a href="./register.html">Register</a>
+                </div>
+            </div>
+        </ul>
+
+        <div class="navigation-mobile">
+            <button id="open-nav" class="navigation-mobile-toggle-btn"><img src="../images/symbol_menu.svg"></button>
+            <div class="navigation-mobile-div">
+                <button id="close-nav" class="navigation-mobile-toggle-btn"><img src="../images/close.svg"></button>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html">Posts</a></li>
+                    <li><a href="../about/index.html">About</a></li>
+                    <li><a href="../account/index.html">Account</a></li>
+                    <li><a href="../account/login.html">Login</a></li>
+                    <li><a href="../account/register.html">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="obj-decoration-2-center">
+
+
+        <div class="login-intro">
+            <h2 class="intro-h2">Login</h2>
+        </div>
+
+        <section class="obj-decoration-2">
+            <form id="login-form" class="login-body">
+
+                <label class="login-label">Email</label>
+                <input class="login-input" name="email" type="email" required>
+
+                <label class="login-label">Password</label>
+                <input class="login-input" name="password" type="password" required>
+
+
+                <label class="login-checkbox"><input name="remember" type="checkbox">Remember me</label>
+                
+                <button class="login-submit" type="submit">Login</button>
+                <a class="login-redirect" href="./register.html">Have no account? <span class="bold">Register.</span></a>
+
+            </form>
+        </section>
+    </div>
+    
+    <footer class="footer-body">
+        <div class="footer-description">
+            <h3>HotView Labs</h3>
+            <p>Provide the most accurate and up to date insights to tech leaders across the world.</p>
+        </div>
+        <div class="footer-links">
+            <div class="links-pages">
+                <a href="../index.html">Home</a>
+                <a href="../index.html">Posts</a>
+                <a href="../about/index.html">About</a>
+                <a href="../account/index.html">Account</a>
+                <a href="../account/login.html">Login</a>
+                <a href="../account/register.html">Register</a>
+            </div>
+            <div class="links-socials">
+                <p>Follow us:</p>
+                <a href="#"><img src="../images/ic_twitter.svg"></a>
+                <a href="#"><img src="../images/ic_youtube.svg"></a>
+                <a href="#"><img src="../images/ic_facebook.svg"></a>
+                <a href="#"><img src="../images/ic_instagram.svg"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="../index.mjs" type="module"></script>
+    <script src="../src/login.mjs" type="module"></script>
+</body>
+</html>

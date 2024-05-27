@@ -1,0 +1,144 @@
+.as-body {
+    width: 80%;
+    margin: 0 auto 3rem;
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.post-article {
+    margin: none;
+    width: 75%;
+}
+.post-article-body {
+    padding: 2rem;
+}
+
+.post-title {
+    font-size: 2rem;
+    color: var(--main-font-color);
+    margin-bottom: 1rem;
+}
+
+.post-data-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.post-data-author {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.post-data-date {
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.post-main-img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.post-article-body p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.post-article-body section {
+    margin-bottom: 2rem;
+}
+
+.post-article-body section h2 {
+    margin-bottom: .5rem;
+}
+.post-article-body section p {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.post-article-body li {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.post-share-btn {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: .5rem 2rem;
+    background-color: #61A5F4;
+    color: var(--main-font-color);
+    border: none;
+    outline: none;
+    display: block;
+    margin-left: auto;
+}
+
+
+/* sidebar */
+.sidebar {
+    width: 25%;
+}
+
+.sidebar-body {
+    padding: 1rem;
+}
+
+.sidebar-suggestion {
+    padding: 1rem;
+    border-radius: 3px;
+    background-color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.suggestion-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: .5rem;
+    color: var(--light-text);
+}
+
+.suggestion-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.suggestion-paragraph {
+    color: var(--light-text);
+    font-weight: 600;
+    margin-bottom: 1rem;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.suggestion-btn {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--main-button);
+
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .sidebar {
+        display: none;
+    }
+
+    .as-body {
+        width: 100%;
+    }
+    .post-article {
+        width: calc(90% - 1rem);
+    }
+
+    .post-data-container {
+        flex-direction: column;
+    }
+}
+

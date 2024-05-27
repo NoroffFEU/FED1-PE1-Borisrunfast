@@ -1,0 +1,224 @@
+.banner {
+    width: 80%;
+    margin: 1rem auto 2rem;
+    position: relative;
+    
+}
+.banner-position-center {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner img {
+    width: 100%;
+    border-radius: 3px;
+}
+.banner h1 {
+    font-size: 3rem;
+    text-align: center;
+    text-wrap: nowrap;
+    color: var(--main-color);
+    text-shadow: 1px 5px 10px var(--secondary-color);
+}
+.banner h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--light-text);
+    text-shadow: 1px 5px 10px black;
+}
+
+
+/* feed carousel*/
+
+.feed-carousel {
+    width: 80%;
+    margin: 0 auto 3rem;
+    background-color: var(--main-color);
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    color: var(--light-text);
+    border-radius: 3px;
+}
+
+.main-carousel-img {
+    width: 40%;
+    object-fit: cover;
+    box-shadow: 1px 3px 5px var(--secondary-color);
+}
+
+.feed-carousel-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.feed-carousel-data h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.feed-carousel-data p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.feed-carousel-subdata {
+    display: flex;
+    justify-content: space-between;
+}
+.feed-carousel-subdata-author {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+p.feed-carousel-subdata-date {
+    font-size: 1rem;
+}
+.carusel-btn {
+    margin-left: auto;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.sub-carousel-img-div {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+.sub-carousel-img-div img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    width: 35%;
+    box-shadow: 1px 3px 5px var(--secondary-color);
+}
+
+/* feed posts*/
+
+.feed-post {
+    padding: 2rem;
+}
+
+.feed-post-header {
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.feed-post-header h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    max-width: 600px;
+}
+
+.feed-post-header, .feed-post-body {
+    display:flex;
+    justify-content: space-between;
+}
+
+.feed-post-body {
+    gap: 1rem;
+}
+
+.feed-post-body-image {
+    width: 40%;
+    cursor: pointer;
+}
+
+.feed-post-body-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feed-post-data-description {
+    font-size: 1.2rem;
+    max-height: 200px;
+    
+}
+.feed-post-data-description p{
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.feed-post-data-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    .feed-carousel {
+        width: 90%;
+        flex-direction: column;
+    }
+    .main-carousel-img {
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
+
+    .banner {
+        width: 90%;
+    }
+    .banner-position-center h1 {
+        text-wrap: wrap;
+        font-size: 2rem;
+    }
+    .banner-position-center h2, .feed-carousel-data p {
+        display: none;
+    }
+
+    .feed-carousel-subdata p {
+        display: block;
+    }
+
+    .sub-carousel-img-div img {
+        width: calc(50% - 1rem);
+        cursor: pointer;
+    }
+
+    .carousel-img-1, .carousel-img-2 {
+        width: calc(50% - 1rem);
+        cursor: pointer;
+    }
+
+    .feed-post-header {
+        flex-direction: column;
+        align-items: start;
+    }
+    .feed-post-body {
+        flex-direction: column;
+    }
+    .feed-post-body-image {
+        width: 100%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+    }
+    .feed-post-data-info {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .feed-post-data-info p {
+        width: 100%;
+        font-size: 1.10rem;
+        font-weight: 600;
+        margin: 1rem 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+}

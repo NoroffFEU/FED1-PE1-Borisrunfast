@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../index.css">
-    <link rel="stylesheet" href="../css/post.css">
+    <link rel="stylesheet" href="../css/account.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jockey+One&family=Permanent+Marker&display=swap" rel="stylesheet">
@@ -20,9 +20,9 @@
             <div class="dropdown">
                 <img src="../images/codicon_account.svg">
                 <div class="content">
-                    <a href="../account/index.html">Account</a>
-                    <a href="../account/login.html">Login</a>
-                    <a href="../account/register.html">Register</a>
+                    <a href="./index.html">Account</a>
+                    <a href="./login.html">Login</a>
+                    <a href="./register.html">Register</a>
                 </div>
             </div>
         </ul>
@@ -41,25 +41,43 @@
                 </ul>
             </div>
         </div>
-        
     </nav>
 
-    <div class="as-body">
-        <div class="obj-decoration-1 post-article">
-            <article id="post-article-body" class="post-article-body">
-                
-                
-            </article>
 
+    <div class="obj-decoration-2-center">
+        <div class="account-header">
+            <h2>Account</h2>
         </div>
-
-        <div class="obj-decoration-1 sidebar">
-            <div id="sidebar-body" class="sidebar-body">
-                
-            </div>
-        </div>
+        <div class="obj-decoration-2">
+            
+            
+            <article class="account-body">
+                <section>
+                    <h3>Basic info:</h3>
+                    <p id="account-name"><strong>Name:</strong> Boris</p>
+                </section>
+                <hr>
+                <section>
+                    <h3>Subscriptions:</h3>
+                    <p>No current subscriptions. Subscribe to help us out.</p>
+                    <button class="btn-decoration-1">Subscribe</button>
+                </section>
+                <hr>
+                <section>
+                    <h3>Daly Newsletter:</h3>
+                    <label><input type="checkbox"> Get daly newsletters through email.</label>
+                </section>
+                <hr>
+                <section>
+                    <h3>Manage Account:</h3>
+                    <a>Delete Account</a>
+                </section>
+            
+        </article>
     </div>
-
+        
+    </div>
+    
     <footer class="footer-body">
         <div class="footer-description">
             <h3>HotView Labs</h3>
@@ -84,6 +102,6 @@
         </div>
     </footer>
     <script src="../index.mjs" type="module"></script>
-    <script src="../src/post.mjs" type="module"></script>
+    <script src="../src/account.mjs" type="module"></script>
 </body>
 </html>

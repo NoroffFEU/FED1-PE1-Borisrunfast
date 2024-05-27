@@ -1,0 +1,41 @@
+.obj-decoration-2-center {
+    margin: 6rem auto 8rem;
+}
+
+.account-header {
+    width: calc(80% - 1rem);
+    margin: auto;
+}
+.account-header h2 {
+    color: var(--light-text);
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+.account-body {
+    padding: 2rem;
+}
+
+
+.account-body h3 {
+ font-size: 1.5rem;
+ margin-bottom: 1rem;
+}
+
+.account-body p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.btn-decoration-1 {
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.account-body input {
+    margin-bottom: 1rem;
+}
+
+.account-body a {
+    color: red;
+    text-decoration: underline;
+}
