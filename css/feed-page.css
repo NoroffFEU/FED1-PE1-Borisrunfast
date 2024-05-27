@@ -93,6 +93,11 @@ p.feed-carousel-subdata-date {
     justify-content: end;
     gap: 2rem;
 }
+
+#carousel-img-1, #carousel-img-2 {
+    cursor: pointer;
+}
+
 .sub-carousel-img-div img {
     aspect-ratio: 16/9;
     object-fit: cover;
