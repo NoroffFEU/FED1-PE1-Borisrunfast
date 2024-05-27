@@ -68,7 +68,7 @@ function buildRecentPost(data) {
     }
 
     btnShare.addEventListener('click', () => {
-        navigator.clipboard.writeText(window.location.href)
+        navigator.clipboard.writeText(`${window.location.origin}/FED1-PE1-Borisrunfast/post/index.html?id=${data.id}`)
         alert('link copied')
     })
 

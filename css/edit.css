@@ -179,10 +179,21 @@ textarea.editor-input {
 
 .buttons-share {
     background-color: var(--share-button);
+    cursor: pointer;
 }
 .buttons-edit {
     background-color: var(--main-button);
+    cursor: pointer;
 }
 .buttons-delete {
     background-color: var(--delete-button);
+    cursor: pointer;
+}
+
+.buttons-share:hover, .buttons-edit:hover, .buttons-delete:hover {
+    opacity: .8;
+}
+
+.buttons-share:active, .buttons-edit:active, .buttons-delete:active {
+    opacity: .6;
 }
