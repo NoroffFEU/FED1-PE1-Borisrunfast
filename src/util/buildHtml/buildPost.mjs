@@ -1,7 +1,6 @@
 
 function buildPost(data) {
     const articleBody = document.getElementById('post-article-body')
-    console.log(data.title)
 
     const title = document.createElement('h2')
     title.className = 'post-title'

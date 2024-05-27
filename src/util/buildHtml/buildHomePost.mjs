@@ -40,10 +40,10 @@ function buildHomePost(data) {
     readMoreBtn.innerText = 'Read More'
 
     readMoreBtn.addEventListener('click', () => {
-        window.location.href = `${window.location.origin}/HotView/post/index.html?id=${data.id}`
+        window.location.href = `${window.location.origin}/FED1-PE1-Borisrunfast/post/index.html?id=${data.id}`
     })
     image.addEventListener('click', () => {
-        window.location.href = `${window.location.origin}/HotView/post/index.html?id=${data.id}`
+        window.location.href = `${window.location.origin}/FED1-PE1-Borisrunfast/post/index.html?id=${data.id}`
     })
 
     infoDiv.append(infoP, readMoreBtn)
