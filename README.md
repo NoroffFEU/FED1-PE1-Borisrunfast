@@ -1,13 +1,14 @@
 # SquareEyes
 
-![image 4](https://github.com/Borisrunfast/SquareEyes.github.io/assets/119118548/b28638f9-4192-40b7-ad7d-87c2e1d153ee)
+
+![image 5](https://github.com/NoroffFEU/FED1-PE1-Borisrunfast/assets/119118548/b84b5610-8f13-4bc3-90da-bd2034fe82ef)
 
 
-learning to use html and css
+HotView Labs a noroff Project Exam 
 
 ## Description
 
-A page selling movies.
+A page built to lookup the latest tech posts
 
 ## Built With
 
@@ -18,12 +19,10 @@ A page selling movies.
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:Borisrunfast/SquareEyes.github.io.git
+git clone git@github.com:NoroffFEU/FED1-PE1-Borisrunfast.git
 ```
 
 ### Running
