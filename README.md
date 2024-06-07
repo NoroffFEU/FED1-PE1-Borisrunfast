@@ -1,4 +1,4 @@
-# SquareEyes
+# HotView Labs
 
 
 ![image 5](https://github.com/NoroffFEU/FED1-PE1-Borisrunfast/assets/119118548/b84b5610-8f13-4bc3-90da-bd2034fe82ef)
