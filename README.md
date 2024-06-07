@@ -14,6 +14,7 @@ A page built to lookup the latest tech posts
 
 - [html](https://html.com/)
 - [css](https://css-tricks.com/)
+- [javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Getting Started
 
